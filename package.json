@@ -3,12 +3,19 @@
   "version": "1.0.0",
   "main": "index.js",
   "license": "MIT",
+  "scripts": {
+    "start": "ts-node src/index.ts",
+    "crawl": "ts-node src/crawl.ts"
+  },
   "dependencies": {
     "axios": "^1.13.5",
     "cheerio": "^1.2.0",
-    "fast-glob": "^3.3.3"
+    "fast-glob": "^3.3.3",
+    "p-limit": "^7.3.0"
   },
   "devDependencies": {
-    "@types/node": "^25.2.3"
+    "@types/node": "^25.2.3",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.3.3"
   }
 }
