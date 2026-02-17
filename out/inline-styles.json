@@ -1,0 +1,592 @@
+{
+  "fslightbox-absoluted": [
+    "position: absolute; top: 0; left: 0"
+  ],
+  "fslightbox-fade-in": [
+    "animation: fslightbox-fade-in .3s cubic-bezier(0,0,.7,1)"
+  ],
+  "fslightbox-fade-out": [
+    "animation: fslightbox-fade-out .3s ease"
+  ],
+  "fslightbox-fade-in-strong": [
+    "animation: fslightbox-fade-in-strong .3s cubic-bezier(0,0,.7,1)"
+  ],
+  "fslightbox-fade-out-strong": [
+    "animation: fslightbox-fade-out-strong .3s ease"
+  ],
+  "fslightbox-cursor-grabbing": [
+    "cursor: grabbing"
+  ],
+  "fslightbox-full-dimension": [
+    "width: 100%; height: 100%"
+  ],
+  "fslightbox-open": [
+    "overflow: hidden; height: 100%"
+  ],
+  "fslightbox-flex-centered": [
+    "display: flex; justify-content: center; align-items: center",
+    "height: 100%"
+  ],
+  "fslightbox-opacity-0": [
+    "opacity: 0"
+  ],
+  "fslightbox-opacity-1": [
+    "opacity: 1"
+  ],
+  "fslightbox-scrollbarfix": [
+    "padding-right: 17px"
+  ],
+  "fslightbox-transform-transition": [
+    "transition: transform .3s"
+  ],
+  "fslightbox-container": [
+    "font-family: Arial,sans-serif; position: fixed; top: 0; left: 0; background: linear-gradient(rgba(30,30,30,.9),#000 1810%); touch-action: pinch-zoom; z-index: 1000000000; -webkit-user-select: none; -moz-user-select: none; -ms-user-select: none; user-select: none; -webkit-tap-highlight-color: transparent",
+    "box-sizing: border-box"
+  ],
+  "fslightbox-svg-path": [
+    "transition: fill .15s ease; fill: #ddd",
+    "fill: #fff",
+    "fill: #f1f1f1"
+  ],
+  "fslightbox-nav": [
+    "height: 45px; width: 100%; position: absolute; top: 0; left: 0"
+  ],
+  "fslightbox-slide-number-container": [
+    "display: flex; justify-content: center; align-items: center; position: relative; height: 100%; font-size: 15px; color: #d7d7d7; z-index: 0; max-width: 55px; text-align: left",
+    "height: 100%"
+  ],
+  "fslightbox-slash": [
+    "display: block; margin: 0 5px; width: 1px; height: 12px; transform: rotate(15deg); background: #fff"
+  ],
+  "fslightbox-toolbar": [
+    "position: absolute; z-index: 3; right: 0; top: 0; height: 100%; display: flex; background: rgba(35,35,35,.65)"
+  ],
+  "fslightbox-toolbar-button": [
+    "height: 100%; width: 45px; cursor: pointer",
+    "fill: #fff"
+  ],
+  "fslightbox-slide-btn-container": [
+    "display: flex; align-items: center; padding: 12px 12px 12px 6px; position: absolute; top: 50%; cursor: pointer; z-index: 3; transform: translateY(-50%)",
+    "padding: 22px 22px 22px 6px",
+    "padding: 30px 30px 30px 6px",
+    "fill: #f1f1f1"
+  ],
+  "fslightbox-slide-btn": [
+    "padding: 9px; font-size: 26px; background: rgba(35,35,35,.65)",
+    "padding: 10px",
+    "padding: 11px"
+  ],
+  "fslightbox-slide-btn-container-previous": [
+    "left: 0",
+    "padding-left: 3px"
+  ],
+  "fslightbox-slide-btn-container-next": [
+    "right: 0; padding-left: 12px; padding-right: 3px",
+    "padding-left: 22px",
+    "padding-left: 30px",
+    "padding-right: 6px"
+  ],
+  "fslightbox-down-event-detector": [
+    "position: absolute; z-index: 1"
+  ],
+  "fslightbox-slide-swiping-hoverer": [
+    "z-index: 4"
+  ],
+  "fslightbox-invalid-file-wrapper": [
+    "font-size: 22px; color: #eaebeb; margin: auto"
+  ],
+  "fslightbox-video": [
+    "object-fit: cover"
+  ],
+  "fslightbox-youtube-iframe": [
+    "border: 0"
+  ],
+  "fslightboxl": [
+    "display: block; margin: auto; position: absolute; top: 50%; left: 50%; transform: translate(-50%,-50%); width: 67px; height: 67px",
+    "box-sizing: border-box; display: block; position: absolute; width: 54px; height: 54px; margin: 6px; border: 5px solid; border-color: #999 transparent transparent transparent; border-radius: 50%; animation: fslightboxl 1.2s cubic-bezier(.5,0,.5,1) infinite",
+    "animation-delay: -.45s",
+    "animation-delay: -.3s",
+    "animation-delay: -.15s"
+  ],
+  "fslightbox-source": [
+    "position: relative; z-index: 2; opacity: 0"
+  ],
+  "st-row": [
+    "display: flex; justify-content: space-between"
+  ],
+  "ui-menu": [
+    "top: 580px",
+    "top: 530px"
+  ],
+  "ui-menu-item-wrapper": [
+    "padding: 12px 16px; font-size: 16px; align-content: center; color: #000637; height: 40px; width: 320px",
+    "background-color: #F2F2FF; color: #000637; font-family: \"Inter\", sans-serif; height: 40px; width: 320px",
+    "width: 290px",
+    "width: 290px"
+  ],
+  "ui-menu-item": [
+    "color: #000637; font-size: 16px; font-family: \"Inter\", sans-serif; background-color: transparent"
+  ],
+  "ui-state-active": [
+    "color: #000637; font-size: 16px; font-family: \"Inter\", sans-serif; background-color: transparent"
+  ],
+  "passenger-box": [
+    "position: absolute; background: white; border: 1px solid #ccc; padding: 12px; width: 320px; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.15); z-index: 9999; top: 380px",
+    "display: none",
+    "width: 180px; top: 440px"
+  ],
+  "hidden": [
+    "display: none",
+    "display: none"
+  ],
+  "controls": [
+    "display: flex; gap: 8px; align-items: center",
+    "width: 28px; height: 28px; border: none; border-radius: 4px; cursor: pointer; background-color: transparent"
+  ],
+  "button-next-prev": [
+    "width: 28px; height: 28px; border: none; border-radius: 4px; cursor: pointer; background-color: transparent"
+  ],
+  "calendar": [
+    "top: 380px; position: absolute; background: white; border-radius: 8px; padding: 12px; width: 300px; box-shadow: 0 4px 12px rgba(0,0,0,0.15); z-index: 9999",
+    "display: none"
+  ],
+  "calendar-header": [
+    "display: flex; justify-content: space-between; align-items: center; margin-bottom: 8px; font-weight: 600; font-size: 16px; color: #000637"
+  ],
+  "calendar-grid": [
+    "display: grid; grid-template-columns: repeat(7, 1fr); gap: 4px; text-align: center"
+  ],
+  "calendar-day": [
+    "padding: 6px; font-size: 14px; font-weight: 400; color: #33385F; border-radius: 10px; cursor: pointer",
+    "background: #F2F2FF; color: #2738C9",
+    "color: #999; pointer-events: none; opacity: 0.5"
+  ],
+  "calendar-weekday": [
+    "font-weight: 600; text-align: center; font-size: 14px; color: #33385F; padding: 6px 0; margin-top: 10px; margin-bottom: 10px"
+  ],
+  "disabled-day": [
+    "color: #999; pointer-events: none; opacity: 0.5"
+  ],
+  "autocomplete-list": [
+    "position: absolute; background: white; border: 1px solid #ccc; border-radius: 6px; width: 100%; max-height: 200px; overflow-y: auto; box-shadow: 0 4px 12px rgba(0,0,0,0.2); z-index: 9999"
+  ],
+  "autocomplete-item": [
+    "padding: 8px 10px; cursor: pointer",
+    "background: #f1f1f1"
+  ],
+  "rating-block": [
+    "background-color: rgba(255, 255, 255, 0.3); border: 1px solid white; border-radius: 30px; width: 334px; height: 35px; display: flex; align-items: center; justify-content: center; font-size: 15px; font-family: Inter, serif; gap: 7px; margin-bottom: 16px",
+    "display: none"
+  ],
+  "rating-block-phone": [
+    "display: none",
+    "background-color: rgba(255, 255, 255, 0.3); border: 1px solid white; border-radius: 30px; width: 100%; height: 35px; display: flex; align-items: center; justify-content: center; font-size: 15px; font-family: Inter, serif; gap: 7px"
+  ],
+  "search-wrapper": [
+    "margin-bottom: 48px",
+    "margin-bottom: 40px"
+  ],
+  "search-background": [
+    "position: absolute; width: 100%; height: 340px; background-color: rgb(229,239,255); z-index: -5",
+    "height: 675px",
+    "height: 625px"
+  ],
+  "background-line": [
+    "position: absolute; top: -5%; width: 95%; left: 46px; z-index: -1",
+    "display: none"
+  ],
+  "search-container": [
+    "max-width: 1219px; margin: 0 auto; padding-top: 70px",
+    "padding-top: 20px"
+  ],
+  "search-text": [
+    "display: flex; position: relative; justify-content: space-between; height: 160px; font-size: 40px; font-weight: 600; color: #000637; line-height: 1.3",
+    "display: flex; flex-direction: column; font-size: 23px; font-weight: 600; font-family: Inter, serif; max-width: 600px; margin: 0 auto; align-items: center; height: 350px",
+    "height: 300px"
+  ],
+  "search-form": [
+    "width: 100%; border-radius: 10px; box-sizing: border-box; background-color: white; display: flex; justify-content: space-between; flex-wrap: nowrap; height: 106px; align-items: center; padding: 0 24px",
+    "height: 280px",
+    "max-width: 600px; flex-direction: column; display: flex; justify-content: flex-start; margin: 0 auto; padding: 0; background-color: transparent"
+  ],
+  "search-places": [
+    "width: 480px; min-width: 0; height: 60px; border: lightgrey 1px solid; border-radius: 10px; display: flex",
+    "border-radius: 20px 20px 0 0; flex-direction: column; width: 100%; height: 116px; position: relative; background-color: white; border: none; box-shadow: 0 -4px 8px rgba(0, 0, 0, 0.1), \n                    4px 0 8px rgba(0, 0, 0, 0.1),  \n                    -4px 0 8px rgba(0, 0, 0, 0.1)"
+  ],
+  "search-details": [
+    "display: flex; gap: 10px",
+    "position: relative; width: 100%; gap: 0; background-color: white; border-radius: 0 0 20px 20px; box-shadow: -3px 2px 6px rgba(0, 0, 0, 0.1),  \n                    3px 2px 6px rgba(0, 0, 0, 0.1),  \n                    0 4px 6px rgba(0, 0, 0, 0.15)"
+  ],
+  "search-from": [
+    "border: none; box-sizing: border-box; width: 230px; flex: 1; height: 100%; background: transparent; padding: 0 24px; font-family: Inter, serif; font-size: 16px",
+    "width: 100%; border-bottom: #D7D7D9 1px solid"
+  ],
+  "search-to": [
+    "border: none; box-sizing: border-box; width: 230px; flex: 1; height: 100%; background: transparent; padding: 0 24px; font-family: Inter, serif; font-size: 16px",
+    "width: 100%; border-bottom: #D7D7D9 1px solid"
+  ],
+  "search-swap": [
+    "display: inline-block; height: 100%; flex: 0 0 24px; background: transparent; padding: 0; border: none",
+    "display: none"
+  ],
+  "search-swap-phone": [
+    "display: none",
+    "display: inline; position: absolute; z-index: 10; background-color: white; right: 0; top: 45px; border: none"
+  ],
+  "search-mobile-br": [
+    "display: none",
+    "display: inline"
+  ],
+  "container-search": [
+    "position: relative; width: 217px; height: 60px; border-radius: 10px; border: #D7D7D9 1px solid",
+    "width: 100%; border-radius: 0; border: none",
+    "border-right: 1px solid #D7D7D9"
+  ],
+  "search-date": [
+    "position: absolute; height: 60px; background: transparent; z-index: 10; border: none; font-family: Inter, serif; font-size: 16px; padding-top: 8px; padding-left: 23px; box-sizing: border-box; width: 100%"
+  ],
+  "search-date-label": [
+    "position: absolute; top: 10px; left: 24px; font-size: 12px; font-family: Inter, serif; color: #85858E; z-index: 1"
+  ],
+  "search-date-img": [
+    "position: absolute; top: 17px; right: 20px"
+  ],
+  "search-bus": [
+    "margin-top: auto; width: 450px; height: 110px",
+    "margin-top: 0; width: 100%; height: auto"
+  ],
+  "search-find": [
+    "width: 217px; height: 60px; border-radius: 10px; background-color: #2738C9; color: white; border: none; font-family: Inter, serif; font-size: 16px; font-weight: 500",
+    "width: 100%; margin-top: 12px"
+  ],
+  "background-blue-block": [
+    "max-width: 1168px; height: 6px; border-radius: 0 0 12px 12px; background-color: #2738C9; bottom: 0; z-index: 100; margin: 0 auto",
+    "display: none"
+  ],
+  "desktop-br": [
+    "display: none",
+    "display: none"
+  ],
+  "search-h2-wrapper": [
+    "width: 100%",
+    "margin: 0; font-size: 30px",
+    "font-size: 26px"
+  ],
+  "left": [
+    "border-right: 1px solid #D7D7D9"
+  ],
+  "benefits-section": [
+    "margin-bottom: 48px",
+    "margin-bottom: 40px"
+  ],
+  "benefit-item": [
+    "display: flex; min-width: 0; min-height: 83px",
+    "width: 100%; margin-bottom: 15px; margin-top: 10px"
+  ],
+  "benefit-icon": [
+    "width: 50px; height: 50px; margin-right: 10px; object-fit: cover"
+  ],
+  "benefit-text": [
+    "font-family: Inter, serif; margin-top: 5px; margin-bottom: 12px; margin-left: 10px; font-size: 24px; font-weight: 600; color: #000637",
+    "margin: 5px 0 0 10px; font-size: 16px; color: #1A1F4B; font-weight: 400; font-family: Inter, serif",
+    "font-size: 20px"
+  ],
+  "benefit-separator": [
+    "width: 1px; height: 83px; background-color: rgba(204, 204, 204, 0.5); margin: 0 15px",
+    "width: 100%; height: 1px; margin: 10px 0"
+  ],
+  "gallery-wrapper": [
+    "margin-bottom: 48px",
+    "margin-bottom: 40px"
+  ],
+  "gallery-header": [
+    "font-family: 'Inter', sans-serif; display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; margin-bottom: 32px; font-weight: 600; size: 62px",
+    "margin-bottom: 16px"
+  ],
+  "gallery-title": [
+    "font-size: 36px; color: #000637; font-weight: 600; margin: 0",
+    "font-size: 28px; width: 250px; margin-bottom: 24px"
+  ],
+  "gallery-controls": [
+    "display: flex; align-items: center; gap: 100px",
+    "margin-top: 30px",
+    "margin-top: 0"
+  ],
+  "gallery-toggle": [
+    "padding: 0 5px; background: rgba(211, 211, 211, 0.27); display: flex; overflow: hidden; max-width: 330px; height: 48px; border-radius: 10px; justify-content: space-around; align-items: center"
+  ],
+  "toggle-btn": [
+    "color: #000637; height: 38px; width: 154px; border: none; background: transparent; padding: 8px 16px; cursor: pointer; transition: all 0.3s ease; display: inline-flex; align-items: center; gap: 6px; justify-content: center",
+    "display: block",
+    "background-color: rgba(153, 50, 204, 0.3); border-radius: 10px"
+  ],
+  "active": [
+    "background-color: rgba(153, 50, 204, 0.3); border-radius: 10px"
+  ],
+  "gallery-arrows": [
+    "display: flex; gap: 5px",
+    "display: none"
+  ],
+  "arrow": [
+    "background: rgba(211, 211, 211, 0.27); border: none; border-radius: 10px; width: 48px; height: 48px; cursor: pointer; transition: background 0.3s",
+    "background: #ddd"
+  ],
+  "gallery-slider": [
+    "overflow: hidden; width: 100%; position: relative",
+    "overflow-x: auto; scroll-snap-type: x mandatory; scrollbar-width: none; -ms-overflow-style: none",
+    "display: none"
+  ],
+  "gallery-track": [
+    "display: flex; transition: transform 0.5s ease; gap: 20px",
+    "transition: none"
+  ],
+  "gallery-item": [
+    "border-radius: 12px; width: 269px; height: 320px; flex-shrink: 0; background-image: url(\"/images/mybus/img.png\"); background-repeat: no-repeat; background-size: cover; background-position: center",
+    "position: absolute; width: 269px; height: 320px",
+    "background-image: url(\"/images/mybus/barcelona.webp\")",
+    "background-image: url(\"/images/mybus/card_prague.jpg\")",
+    "background-image: url(\"/images/mybus/vienna.webp\")",
+    "background-image: url(\"/images/mybus/budapesht.webp\")",
+    "background-image: url(\"/images/mybus/IMG_5113.webp\")",
+    "background-image: url(\"/images/mybus/IMG_5114.webp\")",
+    "background-image: url(\"/images/mybus/IMG_5115.webp\")",
+    "background-image: url(\"/images/mybus/IMG_5116.webp\")",
+    "scroll-snap-align: start; height: 260px; width: 219px",
+    "height: 260px; width: 219px"
+  ],
+  "barcelona": [
+    "background-image: url(\"/images/mybus/barcelona.webp\")"
+  ],
+  "prague": [
+    "background-image: url(\"/images/mybus/card_prague.jpg\")"
+  ],
+  "vienna": [
+    "background-image: url(\"/images/mybus/vienna.webp\")"
+  ],
+  "budapesht": [
+    "background-image: url(\"/images/mybus/budapesht.webp\")"
+  ],
+  "gdansk": [
+    "background-image: url(\"/images/mybus/IMG_5113.webp\")"
+  ],
+  "kyiv": [
+    "background-image: url(\"/images/mybus/IMG_5114.webp\")"
+  ],
+  "krakiv": [
+    "background-image: url(\"/images/mybus/IMG_5115.webp\")"
+  ],
+  "dortmund": [
+    "background-image: url(\"/images/mybus/IMG_5116.webp\")"
+  ],
+  "item-info": [
+    "width: 245px; height: 75px; margin: 233px auto 0 auto; background-color: white; padding: 12px 16px; box-sizing: border-box; display: flex; flex-direction: column; gap: 4px; border-radius: 16px; font-family: Inter, sans-serif",
+    "width: 203px; height: 68px; margin: 184px auto 0 auto"
+  ],
+  "item-route": [
+    "font-size: 16px; font-weight: 600; color: #717279",
+    "font-size: 14px"
+  ],
+  "item-destination": [
+    "font-size: 20px; font-weight: 600; color: #1A1F4B; width: 100%; display: flex; justify-content: space-between",
+    "font-size: 16px",
+    "font-size: 16px",
+    "font-size: 14px"
+  ],
+  "dest-smaller": [
+    "font-size: 16px",
+    "font-size: 14px"
+  ],
+  "item-price": [
+    "font-size: 14px; color: #1a1a1a; font-weight: 500; margin-top: 2px"
+  ],
+  "faq-section-wrapper": [
+    "max-width: 1219px; margin: 0 auto"
+  ],
+  "faq-section": [
+    "max-width: 100%; background-color: white; padding: 40px; border-radius: 20px",
+    "margin-top: 0; margin-bottom: 40px; font-weight: 700; font-size: 36px; font-family: Inter, serif; color: #000637",
+    "font-size: 28px; margin-bottom: 20px",
+    "padding: 20px"
+  ],
+  "faq-container": [
+    "display: flex; gap: 20px; flex-wrap: wrap",
+    "flex-direction: column; gap: 0"
+  ],
+  "faq-column": [
+    "flex: 1; min-width: 300px"
+  ],
+  "faq-item": [
+    "background: #F8F8FA; border-radius: 12px; margin-bottom: 10px; overflow: hidden; transition: all 0.3s ease",
+    "max-height: 500px; color: #313132; transition: color 0.3s ease,\n                max-height 0.5s ease 0.3s",
+    "max-height: 50px"
+  ],
+  "faq-question": [
+    "font-family: Inter, sans-serif; padding: 24px; cursor: pointer; font-weight: 600; color: #000637; font-size: 16px; display: flex; justify-content: space-between; align-items: center"
+  ],
+  "toggle-icon": [
+    "transition: transform 0.3s ease; margin-left: 10px"
+  ],
+  "faq-answer": [
+    "color: #000637; font-family: Inter, sans-serif; max-height: 0; overflow: hidden; opacity: 0; padding: 0 24px; transition: none"
+  ],
+  "open": [
+    "max-height: 500px; color: #313132; transition: color 0.3s ease,\n                max-height 0.5s ease 0.3s"
+  ],
+  "comments-gallery-wrapper": [
+    "margin-bottom: 48px",
+    "margin-bottom: 40px"
+  ],
+  "comments-gallery-header": [
+    "font-family: 'Inter', sans-serif; display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; margin-bottom: 32px; font-weight: 600",
+    "font-size: 28px; margin-bottom: 24px"
+  ],
+  "comments-gallery-title": [
+    "font-size: 36px; color: #000637; font-weight: 600; margin: 0",
+    "font-size: 28px"
+  ],
+  "comments-gallery-controls": [
+    "display: flex; align-items: center; gap: 100px"
+  ],
+  "comments-gallery-toggle": [
+    "background: rgba(211, 211, 211, 0.27); display: flex; overflow: hidden; width: 330px; height: 48px; border-radius: 10px; justify-content: space-around; align-items: center"
+  ],
+  "comments-toggle-btn": [
+    "color: #000637; height: 38px; width: 154px; border: none; background: transparent; padding: 8px 16px; cursor: pointer; transition: all 0.3s ease",
+    "background-color: rgba(153, 50, 204, 0.3); border-radius: 10px"
+  ],
+  "comments-gallery-arrows": [
+    "display: flex; gap: 5px",
+    "display: none"
+  ],
+  "comments-arrow": [
+    "background: rgba(211, 211, 211, 0.27); border: none; border-radius: 10px; width: 48px; height: 48px; cursor: pointer; transition: background 0.3s",
+    "background: #ddd"
+  ],
+  "comments-gallery-slider": [
+    "overflow: hidden; width: 100%; position: relative",
+    "overflow-x: auto; scroll-snap-type: x mandatory; scrollbar-width: none; -ms-overflow-style: none",
+    "display: none"
+  ],
+  "comments-gallery-track": [
+    "display: flex; transition: transform 0.5s ease; gap: 20px; align-items: flex-start",
+    "transition: none"
+  ],
+  "comments-gallery-item": [
+    "max-height: 278px; width: 365px; flex-shrink: 0; box-sizing: border-box; background-color: rgba(147, 112, 219, 0.12); border-radius: 20px; padding: 24px",
+    "scroll-snap-align: start; width: 280px"
+  ],
+  "comments-text": [
+    "max-width: 270px; margin-top: 0; margin-bottom: 15px; font-size: 16px; color: #333; line-height: 1.4"
+  ],
+  "comments-name": [
+    "margin-bottom: 2px; font-size: 16px; font-weight: 600; color: #000637"
+  ],
+  "comments-footer": [
+    "display: flex; justify-content: space-between; align-items: center"
+  ],
+  "comments-cities": [
+    "font-size: 13px; color: #555"
+  ],
+  "comments-rating": [
+    "font-size: 16px; color: rgb(0, 19, 225); letter-spacing: 1px"
+  ],
+  "mobile-br": [
+    "display: none",
+    "display: inline"
+  ],
+  "content-section": [
+    "padding: 0 20px",
+    "padding: 0 12px"
+  ],
+  "body-margin": [
+    "padding: 0 20px",
+    "padding: 0 12px"
+  ],
+  "brand-block-wrapper": [
+    "max-width: 1219px; margin: 0 auto 96px auto; display: block; min-height: 122px",
+    "margin: 0 auto 48px auto",
+    "margin-bottom: 40px"
+  ],
+  "brand-block": [
+    "border-radius: 20px; background-color: white; display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 20px; padding: 40px 32px; margin-bottom: 10px"
+  ],
+  "brand-text": [
+    "font-family: 'Inter', sans-serif; min-width: 205px; flex: 0 0 20%; font-size: 23px; color: #000637; font-weight: 600"
+  ],
+  "brand-logos": [
+    "height: 60px; display: flex; align-items: center; gap: 15px; overflow-x: auto; overflow-x: auto; scrollbar-width: none; -ms-overflow-style: none"
+  ],
+  "logo-item": [
+    "max-height: 50px; display: block"
+  ],
+  "separator": [
+    "width: 1px; background-color: #ccc; margin: 0 20px; height: 30px; flex-shrink: 0"
+  ],
+  "footer-container": [
+    "padding-top: 64px; max-width: 1216px; margin: 0 auto; display: flex; justify-content: space-between; gap: 40px",
+    "flex-direction: column; padding-top: 10px; padding-left: 20px",
+    "padding: 20px"
+  ],
+  "footer-column": [
+    "width: 205px",
+    "margin-top: 0; font-size: 20px; font-weight: 600; margin-bottom: 32px",
+    "list-style: none; margin: 0; padding: 0",
+    "margin-bottom: 16px",
+    "color: #F2F2F7; text-decoration: none; font-size: 16px; font-weight: 400; align-items: center; display: flex; gap: 10px",
+    "display: inline-block; vertical-align: middle"
+  ],
+  "logo-column": [
+    "width: 120px; height: auto"
+  ],
+  "floating-support-btn-container": [
+    "bottom: 15px; right: 15px; position: fixed; z-index: 999990; --floating-btn-size: 56px"
+  ],
+  "floating-support-btn-toggle": [
+    "height: var(--floating-btn-size); width: var(--floating-btn-size); bottom: 0; right: 0; position: absolute; border-radius: 50%; display: flex; justify-content: center; align-items: center; background-color: #fcfcfc; box-shadow: 3px 3px 2px 1px #00000033; z-index: 2; cursor: pointer",
+    "border: 1px solid #00000033",
+    "font-size: 2rem; color: #eeeeee; transition: 0.3s",
+    "display: block",
+    "display: none",
+    "transform: rotate(135deg)"
+  ],
+  "floating-support-btn-list": [
+    "height: var(--floating-btn-size); width: var(--floating-btn-size); bottom: 0; right: 0; position: absolute; border-radius: 50%; display: flex; justify-content: center; align-items: center; transition: 0.3s",
+    "list-style: none; bottom: 0; right: 0; position: absolute; z-index: 1",
+    "text-decoration: none; color: #eeeeee",
+    "",
+    "box-shadow: 3px 3px 2px 1px rgba(0, 0, 0, 0.2)",
+    "bottom: 210px; right: 0",
+    "bottom: 140px; right: 0",
+    "bottom: 70px; right: 0"
+  ],
+  "floating-support-btn-menu-item": [
+    "height: var(--floating-btn-size); width: var(--floating-btn-size); bottom: 0; right: 0; position: absolute; border-radius: 50%; display: flex; justify-content: center; align-items: center; transition: 0.3s",
+    "text-decoration: none; color: #eeeeee",
+    "",
+    "box-shadow: 3px 3px 2px 1px rgba(0, 0, 0, 0.2)",
+    "bottom: 210px; right: 0",
+    "bottom: 140px; right: 0",
+    "bottom: 70px; right: 0"
+  ],
+  "floating-support-btn-icon": [
+    "height: var(--floating-btn-size); width: var(--floating-btn-size)",
+    "display: none"
+  ],
+  "floating-support-btn-icon-wrapper": [
+    "height: var(--floating-btn-size); width: var(--floating-btn-size); border-radius: 50%; overflow: hidden"
+  ],
+  "effect": [
+    "border: 1px solid #00000033",
+    "display: block",
+    "display: none",
+    "transform: rotate(135deg)",
+    "box-shadow: 3px 3px 2px 1px rgba(0, 0, 0, 0.2)",
+    "bottom: 210px; right: 0",
+    "bottom: 140px; right: 0",
+    "bottom: 70px; right: 0"
+  ],
+  "floating-support-btn-close": [
+    "display: none",
+    "display: block"
+  ]
+}

@@ -1,0 +1,23 @@
+1. to investiate the evalaution method, how welld oes it correlate to exploitability
+
+2. is json tree okay
+3.  make tree a callable tool instead of feeding it righ into the LLM for NLG -- verbaliser; make it more sophisticated (make tree into a queriable thing)
+4. which part to query; interpret the queries; tool 
+5. RAG from tree structure (prev work); but cnsider adversarial
+6. eval should tke into account exploitability
+7. perhaps implement cutoffs in eval (if the score is too low, then stop and do not expand)
+8. perhaps determine if the suggested worflow is fster
+9. way of prompting matters, i.e. batch vs single moves
+
+10. consistency of LLMs with RAG
+11. complicated chess puzzles, lookahead of a few stops, isin simple cases, the LLM is less prone to perturbations in the input, but in more complicated cases, it is more prone to perturbations;  maybe full paper measurement of difficulty o fpuzzles, vs inconsistency; difficult puzzles have more branches to check, find other dimensions too.; perhaps sensitive to notations; etc other asepcts
+12. same standarised template -> different move -> meaningless
+
+
+
+
+
+
+
+
+
